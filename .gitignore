@@ -1,0 +1,69 @@
+# =========================
+# Python Cache
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# =========================
+# Virtual Environment
+# =========================
+venv/
+env/
+ENV/
+
+# =========================
+# VS Code
+# =========================
+.vscode/
+
+# =========================
+# Raw Dataset Folders
+# =========================
+Anirudh_raw/
+faces/
+chokepoint/
+
+# =========================
+# Generated Models
+# =========================
+embeddings.pkl
+knn_model.pkl
+
+# =========================
+# Large/Unused Videos
+# =========================
+cam1.avi
+cam2.avi
+chokepoint_trim1.mp4
+chokepoint_trim2.mp4
+low_light1.mp4
+low_light2.mp4
+
+# =========================
+# Generated Output Images
+# =========================
+confusion_matrix.png
+performance_metrics.png
+metrics.png
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# OS Files
+# =========================
+Thumbs.db
+.DS_Store
+desktop.ini
+
+convert_chokepoint_to_video.py
+make_test_video.py
